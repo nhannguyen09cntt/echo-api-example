@@ -21,7 +21,7 @@ func getConnection() *sql.DB {
 
 /*Create mysql connection*/
 func Init() *sql.DB {
-	db, err := sql.Open("mysql", "forum_vn:forum_vn_p@ssword@tcp(178.128.93.55:3306)/forum_vn")
+	db, err := sql.Open("mysql", "forum_vn:******@tcp(178.128.93.55:3306)/forum_vn")
 	if err != nil {
 		fmt.Println(err.Error())
 	} else {
