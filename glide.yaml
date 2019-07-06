@@ -1,0 +1,5 @@
+package: forum-api
+import:
+- package: github.com/labstack/echo
+  version: v4.1.6
+- package: github.com/go-sql-driver/mysql
